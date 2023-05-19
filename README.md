@@ -8,21 +8,18 @@
 
 ```
 gen
-
 ```
 
 - Then run this program 
 
 ```
 fcrypt 
-
 ```
 
 this will allow you to encrypt the password that has created in a .hex file 
 
 ```
 dcrypt 
-
 ```
 this will allow you to decrypt the password to use on whatever you your using 
 
