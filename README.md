@@ -3,6 +3,27 @@
 ## This program is a personal password manager that you can use for self no more need to trust anyone else with your passwords manage them your self 
 
 
+## How to install 
+
+- first clone the repo 
+
+```
+git clone https://github.com/freidhofkyle/gen.git
+```
+
+- Then run the setuo script 
+
+```
+./setup.sh
+```
+
+if not executable then run 
+
+```
+chmod +x setup.sh 
+```
+
+
 ## How to use these programs
 - First run the password generator 
 
@@ -16,7 +37,7 @@ gen
 fcrypt 
 ```
 
-this will allow you to encrypt the password that has created in a .hex file 
+- Then to dcrypt run  
 
 ```
 dcrypt 
