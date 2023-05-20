@@ -65,7 +65,6 @@ python3 -u user -l 12 -f foo.txt -e
 
 ```
 python3 -f foo.txt -d 
-
 ```
 - Also it will give you and encryption key do not lose it or give it to anyone else that is not you and remember your encryption key 
 
