@@ -112,40 +112,7 @@ if args.decrypt:
     print("Decrypted Username:", decrypted_username)
     print("Decrypted Password:", decrypted_password)
 
+
 #print("Generated Password:", password)
 
 #save_password(password, args.filename, args.encrypt)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
