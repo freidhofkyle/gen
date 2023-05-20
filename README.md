@@ -1,53 +1,74 @@
 # Gen 
 
-## This program is a personal password manager that you can use for self no more need to trust anyone else with your passwords manage them your self 
+## This program is a password manager command line program that you can use as your password manager in the cli 
 
 
-## How to install 
+## Prequistites 
 
-- first clone the repo 
+- you will need git if you dont have it installed then install it with your package manager on linux 
+
+- Debian 
+
+```
+sudo apt install git 
+```
+
+- Fedora 
+
+```
+sudo dnf install git 
+```
+- Arch
+
+```
+sudo pacman -S git 
+```
+
+- Then grab the program by doing 
 
 ```
 git clone https://github.com/freidhofkyle/gen.git
 ```
 
-- Then run the setuo script 
 
-```
-./setup.sh
-```
-
-if not executable then run 
-
-```
-chmod +x setup.sh 
-```
 
 
 ## How to use these programs
-- First run the password generator 
+
+- The options 
 
 ```
-gen
+-d = This will decrypt the file  
 ```
 
-- Then run this program 
-
 ```
-fcrypt 
+-e = This will encrypt the file 
 ```
 
-- Then to dcrypt run  
+```
+-f = will give you the option to save it to what ever filename you choose 
+```
 
 ```
-dcrypt 
+-l = will give you the option to specify the size of the password you want 
 ```
-this will allow you to decrypt the password to use on whatever you your using 
 
+```
+-u = will allow you to specify the username for what ever password you are creating 
+```
 
-### also this program does not store the data of your passwords any where you are in control of where you store the passwords 
+- examples of how to use it 
 
-   
+```
+python3 -u user -l 12 -f foo.txt -e
+```
+
+```
+python3 -f foo.txt -d 
+
+```
+- Also it will give you and encryption key do not lose it or give it to anyone else that is not you and remember your encryption key 
+
 
 
 
